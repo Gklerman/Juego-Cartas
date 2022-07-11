@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Cartas</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div id="app" class="container">
+        <card data-image="images/carta.fw.png"></card>
+        <card data-image="images/carta.fw.png"></card>
+        <card data-image="images/carta-ladron.fw.png">
+            <h1 slot="header">Humano</h1>
+            <p slot="content"><span>HABILIDAD:</span> Descarta un objeto equipado en el ladr&oacute;n sin rostro para robar y equipar
+            el de otro campe&oacute;n. No se puede robar un objeto que no se pueda equipar en el momento.</p>
+        </card>
+        <card data-image="images/carta.fw.png"></card>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
